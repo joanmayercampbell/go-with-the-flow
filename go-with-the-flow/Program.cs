@@ -17,12 +17,12 @@ namespace go_with_the_flow
             {
                 Console.WriteLine("Does this food come from a package or have a Label?");
                 answer = Console.ReadLine();
-            //    if (answer.ToLower() == "yes")
-              //  {
-                //    Console.WriteLine("Does it have more that 5 indgredients?");
-                  //  answer = Console.ReadLine();
-                    //if (answer.ToLower() == "yes")
-           //         {
+                if (answer.ToLower() == "yes")
+                  {
+                     Console.WriteLine("Does it have more that 5 indgredients?");
+                     answer = Console.ReadLine();
+           //          if (answer.ToLower() == "yes")
+             //         {
            //             Console.WriteLine("Not recommended to eat!");
            //
            //       }
@@ -30,16 +30,16 @@ namespace go_with_the_flow
            //        {
            //             Console.WriteLine("Bon Appetite!!");
            //         }
-           //    else {
-           //             Console.WriteLine("Is it raised naturally?");
-           //             answer = Console.ReadLine();
-           //            if (answer.ToLower() == "yes")
-           //             {
-           //                 Console.WriteLine("Bon Appetite!");
-           //             }
-           //             else
-           //             {
-           //                 Console.WriteLine("Don't eat!!");
+               else {
+                        Console.WriteLine("Is it raised naturally?");
+                        answer = Console.ReadLine();
+                       if (answer.ToLower() == "yes")
+                        {
+                            Console.WriteLine("Bon Appetite!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Don't eat!!");
            //             }
            //             else{
            //                 Console.WriteLine("Don't eat!!");
@@ -51,11 +51,11 @@ namespace go_with_the_flow
            //         }
 
 
-           //     }
-           // }
-           // else
-           // {
-           //     Console.WriteLine("Do not eat!!");
+                }
+           }
+           else
+           {
+               Console.WriteLine("Do not eat!!");
             }
 
         }
